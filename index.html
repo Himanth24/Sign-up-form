@@ -31,28 +31,34 @@
             <div class="form-data">
                 <h1>Let's do this!</h1>
                 <form action="#" class="form">
-                    <label for="first_name">FIRST NAME
-                        <input type="text" name="first_name">
-                    </label>
-                    <label for="last_name">LAST NAME
-                        <input type="text" name="last_name">
-                    </label>
-                    <label>EMAIL
-                        <input type="email" name="email">
-                    </label>
-                    <label for="phone_number">PHONE NUMBER
-                        <input type="number" name="phone_number">
-                    </label>
-                    <label for="password">PASSWORD
-                        <input type="password" name="password">
-                    </label>
-                    <label for="re_password">CONFIRM PASSWORD
-                        <input type="password" name="re_password">
-                    </label>
+                    <div class="input">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" name="first_name" required>
+                    </div>
+                    <div class="input">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" name="last_name" required>
+                    </div>
+                    <div class="input">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="input">
+                        <label for="phone_number">PHONE NUMBER</label>
+                        <input type="number" name="phone_number" required>
+                    </div>
+                    <div class="input">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" required>
+                    </div>
+                    <div class="input">
+                        <label for="confirm_password">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm_password" required>
+                    </div>
                 </form>
             </div>
             <div class="footer">
-                <button>Create Account</button>
+                <button type="submit">Create Account</button>
                 <br>
                 <span class="log-in">Already have an account ?<p>Log in</p></span>
             </div>
